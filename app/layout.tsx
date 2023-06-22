@@ -1,10 +1,8 @@
+import { Footer, Navbar } from "@/components";
 import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "CarConnect - Find, Drive, Empower",
+    title: "AutoHub ",
     description: "Find, Drive, Empower",
 };
 
@@ -15,7 +13,11 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body>
+                <Navbar />
+                {children}
+                <Footer />
+            </body>
         </html>
     );
 }
