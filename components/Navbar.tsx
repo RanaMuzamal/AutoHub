@@ -10,7 +10,7 @@ function Navbar() {
                 <Link href="/" className="flex justify-center  items-center">
                     <Image
                         src="/logo-no-background.png"
-                        alt="Car Hub Logo"
+                        alt="AutoHub Logo"
                         width={168}
                         height={38}
                         className="object-contain"
