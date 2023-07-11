@@ -1,3 +1,4 @@
+import { manufacturers } from './../constants/index';
 import { MouseEventHandler } from "react";
 
 export interface CustomButton {
@@ -5,4 +6,9 @@ export interface CustomButton {
     containerStyles?: string;
     handleClick?: MouseEventHandler<HTMLButtonElement>;
     btnType?: "button" | "submit";
+}
+
+export type SearchManufacturerProps{
+    manufacturer:string,
+    setManufacturer:(manufacturer:string) => void;
 }
