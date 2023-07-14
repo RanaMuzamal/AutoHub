@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/transparent-logo.png" alt="AutoHub Logo" width="500" height:"60" margin-top:"10">
+  <img src="/public/transparent-logo.png" alt="AutoHub Logo" width="500" height="70" style="margin-top: 60px;">
 </p>
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
