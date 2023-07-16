@@ -2,37 +2,44 @@
   <img src="/public/transparent-logo.png" alt="AutoHub Logo" width="500" height="70" style="margin-top: 60px;">
 </p>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Getting Started
+This is a web application built with Next.js that allows users to search for cars and rent them. The application provides a convenient and efficient way for users to find their desired car models and make reservations for rental purposes.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   <strong>Car Search</strong> - Users can search for cars by entering the car model they are interested in. The application will display a list of available cars that match the search criteria.
+-   <strong>Car Details</strong>- Users can view detailed information about each car, including its specifications, rental rates, and availability. This information helps users make informed decisions before proceeding with the reservation.
+-  <strong>Rental Reservation (Not Implemented Yet)</strong> -  Users can select a specific car and make a reservation by providing their desired rental dates. The application will handle the booking process and send confirmation details to the user.
+-  <strong>User Authentication (Not Implemented Yet) - </strong> To ensure the security of the rental process, the application includes user authentication functionality. Users can create an account, log in, and manage their reservations.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the application locally, follow these steps:
 
-## Learn More
+- Clone the repository: git clone [https://github.com/RanaMuzamal/AutoHub.git](https://github.com/RanaMuzamal/AutoHub)
+- Navigate to the project directory: cd AutoHub
+- Install the dependencies: npm install
+- Start the development server: npm run dev
+- Open your browser and visit http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the application locally, follow these steps:
+- <strong>Next.js</strong>: The application is built using the Next.js framework, which provides server-side rendering, routing, and other essential features for building modern web applications.
+- <strong>React</strong>: Next.js utilizes React as the JavaScript library for building user interfaces, ensuring a fast and responsive user experience.
+- <strong>Tailwind CSS</strong>: Styling is done using Tailwind CSS, which is a utility-first CSS framework that provides a set of ready-to-use utility classes for rapid web UI development.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Fork the repository
+- Create a new branch: git checkout -b your-branch-name
+- Make your changes and commit them: git commit -m 'Add some feature'
+- Push to the branch: git push origin your-branch-name
+- Submit a pull request
+Please make sure to follow the code style and provide detailed information about your changes to facilitate the review process.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+For any inquiries or questions regarding the project, please reach out to muzamilrana149@gmail.com.
