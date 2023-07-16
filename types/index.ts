@@ -46,3 +46,7 @@ export interface CustomInterfaceProps{
     title:string,
     options:OptionsProps[]
 }
+export interface ShowmoreProps{
+    isNext:string,
+    pageNumber:number
+}
