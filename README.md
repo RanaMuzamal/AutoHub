@@ -7,7 +7,6 @@ This is a web application built with Next.js that allows users to search for car
 
 ## Features
 
-To learn more about Next.js, take a look at the following resources:
 
 -   <strong>Car Search</strong> - Users can search for cars by entering the car model they are interested in. The application will display a list of available cars that match the search criteria.
 -   <strong>Car Details</strong>- Users can view detailed information about each car, including its specifications, rental rates, and availability. This information helps users make informed decisions before proceeding with the reservation.
