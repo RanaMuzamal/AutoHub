@@ -29,6 +29,12 @@ To run the application locally, follow these steps:
 - <strong>Next.js</strong>: The application is built using the Next.js framework, which provides server-side rendering, routing, and other essential features for building modern web applications.
 - <strong>React</strong>: Next.js utilizes React as the JavaScript library for building user interfaces, ensuring a fast and responsive user experience.
 - <strong>Tailwind CSS</strong>: Styling is done using Tailwind CSS, which is a utility-first CSS framework that provides a set of ready-to-use utility classes for rapid web UI development.
+- <strong>TypeScript</strong>: TypeScript is a statically typed superset of JavaScript that introduces type annotations, enabling developers to catch type-related errors during development and enhance code quality and maintainability.
+
+
+
+
+
 
 ## Contributing
 
